@@ -1,5 +1,3 @@
-package lab7;
-
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -12,18 +10,19 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 
 /**
- * ____                      _              _ _ _     _
- * |  _ \  ___    _ __   ___ | |_    ___  __| (_) |_  | |
- * | | | |/ _ \  | '_ \ / _ \| __|  / _ \/ _` | | __| | |
- * | |_| | (_) | | | | | (_) | |_  |  __/ (_| | | |_  |_|
- * |____/ \___/  |_| |_|\___/ \__|  \___|\__,_|_|\__| (_)
+ * ____ _ _ _ _ _
+ * | _ \ ___ _ __ ___ | |_ ___ __| (_) |_ | |
+ * | | | |/ _ \ | '_ \ / _ \| __| / _ \/ _` | | __| | |
+ * | |_| | (_) | | | | | (_) | |_ | __/ (_| | | |_ |_|
+ * |____/ \___/ |_| |_|\___/ \__| \___|\__,_|_|\__| (_)
  * <p>
  * This is support code for the lab. You may look at it if you are interested,
  * but you will not have to change anything to complete your lab.
  */
 
 /*
- * This class creates a visualizer for ArrayBuilder to display the different Arrays
+ * This class creates a visualizer for ArrayBuilder to display the different
+ * Arrays
  */
 public class ArrayVisualizer {
 

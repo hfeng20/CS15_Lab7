@@ -1,16 +1,14 @@
-package lab7;
-
 import javafx.scene.Node;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import javafx.scene.paint.Color;
 
 /**
- * ____                      _              _ _ _     _
- * |  _ \  ___    _ __   ___ | |_    ___  __| (_) |_  | |
- * | | | |/ _ \  | '_ \ / _ \| __|  / _ \/ _` | | __| | |
- * | |_| | (_) | | | | | (_) | |_  |  __/ (_| | | |_  |_|
- * |____/ \___/  |_| |_|\___/ \__|  \___|\__,_|_|\__| (_)
+ * ____ _ _ _ _ _
+ * | _ \ ___ _ __ ___ | |_ ___ __| (_) |_ | |
+ * | | | |/ _ \ | '_ \ / _ \| __| / _ \/ _` | | __| | |
+ * | |_| | (_) | | | | | (_) | |_ | __/ (_| | | |_ |_|
+ * |____/ \___/ |_| |_|\___/ \__| \___|\__,_|_|\__| (_)
  * <p>
  * This is support code for the lab. You may look at it if you are interested,
  * but you will not have to change anything to complete your lab.
@@ -80,7 +78,7 @@ public class Alien {
     }
 
     public int randomLocGenerator() {
-        //generates a random integer between 0 and panel width
+        // generates a random integer between 0 and panel width
         return (int) ((Constants.PANEL_H - 100) * Math.random());
     }
 
@@ -99,6 +97,5 @@ public class Alien {
     public Node getRightEye() {
         return this.rightEye;
     }
-
 
 }
