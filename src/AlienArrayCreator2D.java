@@ -48,7 +48,7 @@ public class AlienArrayCreator2D {
          */
         for (int i = 0; i < 7; i++) {
             for (int t = 0; t < 5; t++) {
-                this.alienArray2D[i][t].setXPos(i * 120 + 60);
+                this.alienArray2D[i][t].setXPos(i * 60 + 60);
                 this.alienArray2D[i][t].setYPos(t * 80 + 30);
             }
         }
@@ -117,6 +117,13 @@ public class AlienArrayCreator2D {
          * 2. Check if the row (or column) is evil
          * 3. If the row is evil, change the color of all aliens to be red
          */
+        for (Alien[] row : this.alienArray2D) {
+            if (checkEvilAliens(row)) {
+                for (Alien alien : row) {
+                    alien.setColor(Color.RED);
+                }
+            }
+        }
     }
 
     /**
